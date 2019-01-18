@@ -6,7 +6,7 @@ The GitHub Action for [Maven](https://maven.apache.org/) wraps the Maven CLI to 
 
 ```
 action "package" {
-  uses = "LucaFeger/actions/maven-cli@master"
+  uses = "LucaFeger/action-maven-cli@master"
   args = "clean install"
 }
 ```
